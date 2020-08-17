@@ -4,7 +4,7 @@ Scenario: Addition of two positive numbers
 
 Given The calculator with on
 
-When I type in "first positive number" And I press "plus" And I type in "second positive number" And I press "equals"
+When I type in "positive number" And I press "plus" And I type in "positive number" And I press "equals"
 
 Then I see the "added number" as the result
 
@@ -12,7 +12,7 @@ Scenario: Addition of fraction
 
 Given The calculator with on
 
-When I type in "first fraction number" and I press "plus" and I type in "second fraction number" and I press "equals"
+When I type in "fraction number" and I press "plus" and I type in "fraction number" and I press "equals"
 
 Then I see the "added number" as the result
 
@@ -28,7 +28,7 @@ Scenario: Addition of decimals
 
 Given The calculator with on
 
-When I type in "first decimal number" and I press "plus" and I type in "second decimal number" and I press "equals"
+When I type in "decimal number" and I press "plus" and I type in "decimal number" and I press "equals"
 
 Then I see the "added number" as the result
 
