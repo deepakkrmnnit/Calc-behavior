@@ -28,10 +28,3 @@ And I type in "positive number"
 And I press "equals"
  Then I see the "added number" as the result
  
-Scenario: Addition of fractions
-Given The calculator with on
-When I type in "first fraction number"
-And I press "plus"
-And I type in "Second fraction number"
-And I press "equals"
- Then I see the "added number" as the result
