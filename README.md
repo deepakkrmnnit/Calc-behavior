@@ -27,13 +27,3 @@ And I press "plus"
 And I type in "positive number"
 And I press "equals"
  Then I see the "added number" as the result
- 
- Scenario: Addition of two negative numbers
- Given The calculator with on
- When I type in "first negative number"
-And I press "plus"
-And I type in "Second negative number"
-And I press "equals"
- Then I see the "added number" as the result
- 
- 
